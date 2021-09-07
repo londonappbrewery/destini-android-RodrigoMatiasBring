@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         mAnswer2Button = findViewById(R.id.buttonBottom);
 
         if (savedInstanceState != null) {
-            // Unnecessary comment here...
             mStoryIndex = savedInstanceState.getInt("StoryIndexKey");
         }
 
